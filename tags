@@ -1,0 +1,141 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CSV	.\main.py	/^import pandas as pd  # managing CSV files$/;"	i
+DiccioLSI	.\iniciador.py	/^DiccioLSI = pickle.load(open('Modelo\/DiccionarioLSI9.pickle','rb'))$/;"	v
+EtiquetaEnTexto	.\iniciador.py	/^def EtiquetaEnTexto(valor):$/;"	f
+EtiquetarModelLSI	.\iniciador.py	/^def EtiquetarModelLSI(tweet):$/;"	f
+KNNModel	.\extraction\datastream.py	/^from model.knn import KNNModel$/;"	i
+KNNModel	.\model\knn.py	/^class KNNModel:$/;"	c
+Keep	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+Knn	.\iniciador.py	/^def Knn(Matriz, k):$/;"	f
+MatrizSimLSI	.\iniciador.py	/^MatrizSimLSI = pickle.load(open('Modelo\/MatrizSimilaridadLSI9.pickle','rb'))$/;"	v
+NLP	.\extraction\preproccesing.py	/^import nltk  # NLP tools$/;"	i
+NUMBER_LISTS	.\main.py	/^NUMBER_LISTS = int(os.getenv("NUMBER_LISTS"))  # number of csv files with words$/;"	v
+<<<<<<< HEAD
+PERIOD	.\main.py	/^PERIOD = int(os.getenv("REFRESH_TIME"))$/;"	v
+=======
+Nominatim	.\extraction\datastream.py	/^from geopy.geocoders import Nominatim$/;"	i
+PERIOD	.\main.py	/^PERIOD = float(os.getenv("REFRESH_TIME"))$/;"	v
+>>>>>>> 8b13855b5886eb3607fbb761351e3009c4c92536
+Preprocessing	.\extraction\datastream.py	/^from extraction.preproccesing import Preprocessing$/;"	i
+Preprocessing	.\extraction\preproccesing.py	/^class Preprocessing:$/;"	c
+SAMPLE_SIZE	.\main.py	/^SAMPLE_SIZE = int(os.getenv("WORD_SAMPLE_SIZE"))$/;"	v
+StreamListener	.\extraction\datastream.py	/^class StreamListener(tweepy.Stream):$/;"	c
+StreamListener	.\main.py	/^from extraction.datastream import StreamListener  # handle twitter's connection$/;"	i
+<<<<<<< HEAD
+__init__	.\extraction\datastream.py	/^    def __init__(self, words, raw_data_path):$/;"	m	class:StreamListener
+=======
+__init__	.\extraction\datastream.py	/^    def __init__(self, words):$/;"	m	class:StreamListener
+>>>>>>> 8b13855b5886eb3607fbb761351e3009c4c92536
+__init__	.\extraction\preproccesing.py	/^    def __init__(self):$/;"	m	class:Preprocessing
+__init__	.\model\knn.py	/^    def __init__(self):$/;"	m	class:KNNModel
+an	.\main.py	/^from twisted.internet import task, reactor  # an event loop library$/;"	i
+and	.\extraction\preproccesing.py	/^import stanza  # helps to lemmatize and tokenize words$/;"	i
+but	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+but	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+can	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+changeLyrics	.\extraction\preproccesing.py	/^    def changeLyrics(self, text):$/;"	m	class:Preprocessing
+cities	.\extraction\datastream.py	/^cities = pd.read_csv('.\/Listas\/ciudades.csv')$/;"	v
+clean_data	.\extraction\preproccesing.py	/^    def clean_data(self, text):$/;"	m	class:Preprocessing
+clean_text	.\extraction\preproccesing.py	/^    def clean_text(self, text):$/;"	m	class:Preprocessing
+collections	.\iniciador.py	/^import collections$/;"	i
+<<<<<<< HEAD
+=======
+date	.\extraction\datastream.py	/^from datetime import date$/;"	i
+>>>>>>> 8b13855b5886eb3607fbb761351e3009c4c92536
+date	.\main.py	/^from datetime import date$/;"	i
+delete_last_line	.\extraction\datastream.py	/^    def delete_last_line(self, file):$/;"	m	class:StreamListener
+demojize	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+download	.\extraction\preproccesing.py	/^    def download():$/;"	m	class:Preprocessing
+emoji	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+event	.\main.py	/^def event():$/;"	f
+event	.\main.py	/^from twisted.internet import task, reactor  # an event loop library$/;"	i
+event_loop	.\main.py	/^event_loop = task.LoopingCall(event)$/;"	v
+exists	.\extraction\datastream.py	/^from os.path import exists$/;"	i
+exists	.\model\knn.py	/^from os.path import exists$/;"	i
+expression	.\extraction\preproccesing.py	/^import re  # regular expression support$/;"	i
+<<<<<<< HEAD
+extract_tweets	.\extraction\datastream.py	/^    def extract_tweets(self, sample_size=30):$/;"	m	class:StreamListener
+files	.\main.py	/^import pandas as pd  # managing CSV files$/;"	i
+full_words	.\main.py	/^full_words = []  # this will contain all the words$/;"	v
+=======
+extract_tweets	.\extraction\datastream.py	/^    def extract_tweets(self, sample_size=30, thread = None):$/;"	m	class:StreamListener
+files	.\main.py	/^import pandas as pd  # managing CSV files$/;"	i
+full_words	.\main.py	/^full_words = []  # this will contain all the words$/;"	v
+geolocator	.\extraction\datastream.py	/^geolocator = Nominatim(user_agent="geoapiExercises")$/;"	v
+>>>>>>> 8b13855b5886eb3607fbb761351e3009c4c92536
+handle	.\main.py	/^from extraction.datastream import StreamListener  # handle twitter's connection$/;"	i
+helps	.\extraction\preproccesing.py	/^import stanza  # helps to lemmatize and tokenize words$/;"	i
+its	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+json	.\extraction\datastream.py	/^import json$/;"	i
+lemmatize	.\extraction\preproccesing.py	/^import stanza  # helps to lemmatize and tokenize words$/;"	i
+lemmatize_text	.\extraction\preproccesing.py	/^    def lemmatize_text(self, text):$/;"	m	class:Preprocessing
+library	.\main.py	/^from twisted.internet import task, reactor  # an event loop library$/;"	i
+lighter	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+load_dotenv	.\main.py	/^from dotenv import load_dotenv$/;"	i
+loop	.\main.py	/^from twisted.internet import task, reactor  # an event loop library$/;"	i
+<<<<<<< HEAD
+=======
+loop_thread	.\main.py	/^loop_thread = None$/;"	v
+>>>>>>> 8b13855b5886eb3607fbb761351e3009c4c92536
+managing	.\main.py	/^import pandas as pd  # managing CSV files$/;"	i
+model	.\model\knn.py	/^import iniciador as model$/;"	i
+modelLSI	.\iniciador.py	/^modelLSI = pickle.load(open('Modelo\/ModelLSI9.model','rb'))$/;"	v
+modeloLSI	.\iniciador.py	/^def modeloLSI(tweet):$/;"	f
+nltk	.\extraction\preproccesing.py	/^import nltk  # NLP tools$/;"	i
+on_error	.\extraction\datastream.py	/^    def on_error(self, status_code):$/;"	m	class:StreamListener
+on_status	.\extraction\datastream.py	/^    def on_status(self, status):$/;"	m	class:StreamListener
+os	.\extraction\datastream.py	/^import os$/;"	i
+os	.\main.py	/^import os$/;"	i
+pd	.\extraction\datastream.py	/^import pandas as pd$/;"	i
+pd	.\main.py	/^import pandas as pd  # managing CSV files$/;"	i
+pickle	.\iniciador.py	/^import pickle$/;"	i
+predict_label	.\model\knn.py	/^    def predict_label(self, text):$/;"	m	class:KNNModel
+punctuation	.\extraction\preproccesing.py	/^from string import punctuation$/;"	i
+random	.\extraction\datastream.py	/^import random$/;"	i
+re	.\extraction\datastream.py	/^import re$/;"	i
+re	.\extraction\preproccesing.py	/^import re  # regular expression support$/;"	i
+reactor	.\main.py	/^from twisted.internet import task, reactor  # an event loop library$/;"	i
+regular	.\extraction\preproccesing.py	/^import re  # regular expression support$/;"	i
+remove	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+remove_stopwords	.\extraction\preproccesing.py	/^    def remove_stopwords(self, text):$/;"	m	class:Preprocessing
+rows	.\iniciador.py	/^rows= []$/;"	v
+sad	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+save_csv	.\extraction\datastream.py	/^    def save_csv(self, status, path, shouldPreprocessing=False) -> list:$/;"	m	class:StreamListener
+<<<<<<< HEAD
+save_labelled_csv	.\extraction\datastream.py	/^    def save_labelled_csv(self, processed_fields, path='data_etiquetada.csv', path2="data_etiquetada2.csv"):$/;"	m	class:StreamListener
+=======
+save_labelled_csv	.\extraction\datastream.py	/^    def save_labelled_csv(self, processed_fields, path2='data_etiquetada.csv', path="data_etiquetada2.csv"):$/;"	m	class:StreamListener
+>>>>>>> 8b13855b5886eb3607fbb761351e3009c4c92536
+save_raw_data	.\extraction\datastream.py	/^    def save_raw_data(self, json_data):$/;"	m	class:StreamListener
+sense	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+stanza	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+stanza	.\extraction\preproccesing.py	/^import stanza  # helps to lemmatize and tokenize words$/;"	i
+stopwords	.\extraction\preproccesing.py	/^from nltk.corpus import stopwords$/;"	i
+<<<<<<< HEAD
+support	.\extraction\preproccesing.py	/^import re  # regular expression support$/;"	i
+task	.\main.py	/^from twisted.internet import task, reactor  # an event loop library$/;"	i
+this	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+=======
+stream_listener	.\main.py	/^stream_listener = StreamListener(full_words)$/;"	v
+support	.\extraction\preproccesing.py	/^import re  # regular expression support$/;"	i
+task	.\main.py	/^from twisted.internet import task, reactor  # an event loop library$/;"	i
+this	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+threading	.\extraction\datastream.py	/^import threading$/;"	i
+>>>>>>> 8b13855b5886eb3607fbb761351e3009c4c92536
+tipo	.\iniciador.py	/^tipo = []$/;"	v
+to	.\extraction\preproccesing.py	/^import stanza  # helps to lemmatize and tokenize words$/;"	i
+tokenize	.\extraction\preproccesing.py	/^import stanza  # helps to lemmatize and tokenize words$/;"	i
+tools	.\extraction\preproccesing.py	/^import nltk  # NLP tools$/;"	i
+tweepy	.\extraction\datastream.py	/^import tweepy$/;"	i
+twitter	.\main.py	/^from extraction.datastream import StreamListener  # handle twitter's connection$/;"	i
+unicode	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+unicodedata	.\extraction\preproccesing.py	/^import unicodedata$/;"	i
+value	.\extraction\preproccesing.py	/^from emoji import demojize # Keep emoji sense but remove its unicode value => :( -> :sad:$/;"	i
+well	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+word_tokenize	.\extraction\preproccesing.py	/^from nltk import word_tokenize  # stanza can tokenize as well, but this lighter$/;"	i
+words	.\extraction\preproccesing.py	/^import stanza  # helps to lemmatize and tokenize words$/;"	i
