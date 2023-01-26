@@ -1,5 +1,5 @@
 # Title
-A graph-based semi-supervised approach forautomatic text corpus emergency events labelling inTwitter
+A graph-based semi-supervised approach for automatic text corpus emergency events labeling on Twitter
 
 # Configure dotenv
 
